@@ -158,9 +158,9 @@ response body removed), unless you implement a method named
 C<$action_HEAD>.
 
 To generate a link to an action, use C<uri_for> with either the name
-(eg C<"REST.$controller.$action">), or by passing a HashRef C<<{
-    controller => $controller, action => $action }>>. See F<t/test.t>
-    for some examples.
+(eg C<"REST.$controller.$action">), or by passing a HashRef
+C<< { controller => $controller, action => $action } >>. See
+F<t/test.t> for some examples.
 
 
 =for Pod::Coverage
